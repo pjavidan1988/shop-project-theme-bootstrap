@@ -1,0 +1,13 @@
+@font-face{
+    font-family: 'Peyman';
+    src: url('fonts/WebYekan.woff') format('woff');
+}
+
+body{
+    direction: rtl;
+    font-family: 'Peyman','Myriad Pro','Tahoma';
+    font-size: 13px;
+    background: #fafafa;
+    color:#616161;
+    
+}
