@@ -24,6 +24,9 @@ ul{
 li{
     list-style: none;
 }
+
+/* Header-Top Start */
+
 .header-top{
     background: #5fb7ea;
 }
@@ -42,5 +45,82 @@ li{
 .header-top ul li a:hover{
     color:#476678;
 }
+
+/* Header-Top End */
+
+/* Header-Main Star */
+.header-main{
+    padding: 50px 0;
+}
+
+.header-main .logo{
+    float: left;
+}
+
+.header-main ul li{
+    float: right;
+    display:inline-block;
+    position: relative;
+}
+
+.header-main ul li a{
+    display: block;
+    padding: 10px 20px 20px;
+    font-size: 14px;
+    color:#616161;
+}
+
+.header-main ul li ul{
+    width: 250px;
+    margin: 20px 0 0;
+    opacity: 0;
+    top: 100%;
+    right: 0;
+    visibility:hidden;
+    position: absolute;
+    background: #fff;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -webkit-box-shadow: -1px 2px 3px rgba(0,0,0,.2);
+    -moz-box-shadow: -1px 2px 3px rgba(0,0,0,.2);
+    -o-box-shadow: -1px 2px 3px rgba(0,0,0,.2);
+
+}
+
+.header-main ul li ul::before{
+    content: "";
+    position: absolute;
+    top: -10px;
+    right: 15px;
+    width: 10px;
+    height: 10px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+}
+
+.header-main ul li:hover ul{
+    margin: 0;
+    opacity: 1;
+    visibility:visible;
+}
+
+.header-main ul li ul li{
+    width: 100%;
+    float:none;
+    display: block;
+}
+
+.header-main ul li ul li a{
+    padding: 15px;
+}
+
+.header-main ul li ul li a:hover{
+    background: #ff688f;
+    color: #fff;
+}
+/* Header-Main End */
+
 
 
