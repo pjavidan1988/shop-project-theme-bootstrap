@@ -32,6 +32,28 @@ li{
     -o-box-shadow: 0 0 6px rgba(0,0,0,.1);
 }
 
+.btn-gray{
+    border-radius: 300px;
+    background: #96a092;
+    color: #fff;
+}
+
+.btn-gray:hover{
+    background: #5fb7ea;
+    color: #fff;
+}
+
+.btn-blue{
+    border-radius: 300px;
+    background: #5fb7ea;
+    color: #fff;
+}
+
+.btn-blue:hover{
+    background: #ff688f;
+    color: #fff;
+}
+
 /* Header-Top Start */
 
 .header-top{
@@ -88,6 +110,7 @@ li{
 .header-main ul li ul{
     width: 250px;
     margin: 20px 0 0;
+    padding: 0;
     opacity: 0;
     top: 100%;
     right: 0;
@@ -97,9 +120,9 @@ li{
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
-    -webkit-box-shadow: -1px 2px 3px rgba(0,0,0,.2);
-    -moz-box-shadow: -1px 2px 3px rgba(0,0,0,.2);
-    -o-box-shadow: -1px 2px 3px rgba(0,0,0,.2);
+    /*-webkit-box-shadow: -1px 2px 3px rgba(0,0,0,.2);*/
+    /*-moz-box-shadow: -1px 2px 3px rgba(0,0,0,.2);*/
+    /*-o-box-shadow: -1px 2px 3px rgba(0,0,0,.2);*/
 
 }
 
@@ -212,7 +235,84 @@ li{
     background: #ff688f;
     color: #fff;
 }
+
 /* Header-Main End */
+
+/* Header-Bottom Start */
+
+.header-bottom{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    padding: 20px 10px;
+    background: #fff;
+    z-index: 10;
+}
+
+.header-bottom .social{
+    float: left;
+
+}
+
+.header-bottom .social li{
+    float: left;
+    display: inline-block;
+}
+
+.header-bottom .social li a{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    margin: 0 5px;
+    background: #6abceb;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.header-bottom .social li a:hover{
+    background: #ff688f;
+}
+
+/* Header-Bottom End */
+
+/*Slider Start*/
+
+.slider{
+    width: 100%;
+    position: relative;
+    margin: -45px 0 0;
+    padding: 100px 0 80px;
+    background: url("images/slider/home-slider.png");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.slider .slide-content{
+    padding: 10px 0 0 80px;
+}
+
+.slider h1{
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.slider p{
+    line-height: 30px;
+    text-align: justify;
+}
+
+.slider .btn{
+    float: left;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin: 15px 10px 0 0;
+}
+
+/*Slider End*/
 
 
 
