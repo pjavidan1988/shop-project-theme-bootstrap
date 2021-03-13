@@ -25,6 +25,10 @@ li{
     list-style: none;
 }
 
+img{
+    max-width: 100%;
+}
+
 .shadow-around{
     box-shadow: 0 0 6px rgba(0,0,0,.1);
     -webkit-box-shadow: 0 0 6px rgba(0,0,0,.1);
@@ -167,7 +171,7 @@ li{
     top: -3px;
     right: 10px;
     border-radius: 50%;
-    background: #ff688f url("images/basic/cart.png") no-repeat center center;
+    background: #ff688f url("images/basic/cart.png")  no-repeat center center;
 }
 
 .header-main .cart{
@@ -288,6 +292,7 @@ li{
     background-size: cover;
     background-position: center center;
     color: #fff;
+    margin-bottom: 200px;
 }
 
 .slider .slide-content{
@@ -298,6 +303,8 @@ li{
     margin: 0;
     margin-bottom: 15px;
     font-size: 40px;
+    font-weight: 400;
+    text-align: right;
 }
 
 .slider p{
@@ -310,6 +317,26 @@ li{
     padding: 10px 20px;
     font-size: 15px;
     margin: 15px 10px 0 0;
+}
+
+.slider .carousel-indicators{
+    bottom: -60px;
+    margin: 0 auto;
+    padding: 0;
+    width: auto;
+}
+
+.slider .carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    margin: 0 2px;
+    background: #f4f4f4;
+    border-color: #f4f4f4;
+}
+
+.slider .carousel-indicators .active{
+    background: #5fb7ea;
+    border-color: #5fb7ea;
 }
 
 /*Slider End*/
