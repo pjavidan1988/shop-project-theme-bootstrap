@@ -349,6 +349,7 @@ img{
     padding: 10px 20px;
     font-size: 15px;
     margin: 15px 10px 0 0;
+    color: #fff;
 }
 
 .slider .carousel-indicators{
@@ -606,6 +607,46 @@ img{
 }
 
 /*New product End*/
+
+/*Quick access Start*/
+
+.quick-access ul{
+    margin-top: 20px;
+}
+
+.quick-access ul li{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.quick-access ul li a{
+    display: block;
+    padding: 15px 0;
+    font-size: 13px;
+}
+
+.quick-access ul li span{
+    min-width: 40px;
+    padding: 5px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background: #5fb7ea;
+    text-align: center;
+    color: #fff;
+    border-radius: 300px;
+    font-size: 11px;
+}
+
+.quick-access ul li a:hover span{
+    background: #ff688f;
+}
+
+
+
+
+/*Quick access End*/
 
 
 
