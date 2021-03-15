@@ -610,6 +610,10 @@ img{
 
 /*Quick access Start*/
 
+.quick-access{
+    margin: 20px 0 0;
+}
+
 .quick-access ul{
     margin-top: 20px;
 }
@@ -643,7 +647,29 @@ img{
     background: #ff688f;
 }
 
+.quick-access .search-form{
+    position: relative;
+}
 
+.quick-access .search-form input[type="text"]{
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+}
+
+.quick-access .search-form button{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 3px;
+    left: 5px;
+    border-radius: 20px;
+    border: 0;
+    background: transparent;
+}
 
 
 /*Quick access End*/
