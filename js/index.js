@@ -3,4 +3,5 @@ $(document).ready(function () {
         $(".open-cart").toggleClass("active-cart");
         $(".cart").fadeToggle();
     });
+    $(".sale-timeout-counter").startTimer();
 });

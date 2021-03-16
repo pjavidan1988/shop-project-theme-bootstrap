@@ -3,6 +3,11 @@
     src: url('fonts/WebYekan.woff') format('woff');
 }
 
+@font-face {
+    font-family: 'dinar';
+    src: url(fonts/dinar.woff) format("woff");
+}
+
 body{
     direction: rtl;
     font-family: 'Peyman','Myriad Pro','Tahoma';
@@ -219,7 +224,7 @@ img{
     background: #fff;
     text-align: center;
     display: none;
-    z-index: 1000;
+    z-index: 100;
 }
 
 .header-main .active-cart{
@@ -638,7 +643,7 @@ img{
     min-width: 40px;
     padding: 5px;
     position: absolute;
-    top: 20px;
+    top: 12px;
     left: 0;
     background: #5fb7ea;
     text-align: center;
@@ -686,6 +691,7 @@ img{
     padding: 60px 0;
     position: relative;
     background: #0e1b23;
+    margin-bottom: 200px;
 }
 
 .sale-timeout:after{
@@ -696,7 +702,7 @@ img{
     top: 0;
     left: 0;
     background: url("images/pattern.png");
-    margin-bottom: 200px;
+
 }
 
 .sale-timeout .sale-inner{
@@ -717,7 +723,7 @@ img{
 .sale-timeout .sale-inner .sale-timeout-content{
     width: 45%;
     float: right;
-    padding-right: 20px;
+    padding: 20px 20px 0 0;
     color: #fff;
     text-align: center;
 }
@@ -743,7 +749,7 @@ img{
 
 .sale-timeout .sale-inner .sale-timeout-content h2:before{
     content: "";
-    width: 300px;
+    width: 250px;
     position: absolute;
     bottom: 0;
     right: 100%;
@@ -764,6 +770,28 @@ img{
     font-size: 25px;
     background: url("images/btn-bg.jpg") #1a3241;
     color: #5fb7ea;
+}
+
+.sale-timeout .sale-inner .sale-timeout-content .sale-timeout-counter{
+    width: auto;
+    display: table;
+    margin: 30px auto 0;
+}
+
+.sale-timeout .sale-inner .sale-timeout-content .sale-timeout-counter > div{
+    width: 70px;
+    height: 100px;
+    float: right;
+    background: url(images/timer-bg.jpg);
+    margin: 0 4px;
+    padding: 17px 0;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'dinar'
+}
+
+.sale-timeout .sale-inner .sale-timeout-content .sale-timeout-counter div:last-child{
+    display: none;
 }
 /*Sale timeout End*/
 
