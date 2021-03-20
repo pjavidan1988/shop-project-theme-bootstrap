@@ -904,7 +904,6 @@ img{
     padding: 30px;
     background: #fff;
     text-align: center;
-    margin-bottom: 300px;
 }
 
 .sales .sales-item h2{
@@ -961,6 +960,33 @@ img{
 
 
 /*Sales End*/
+
+/*Customers Start*/
+
+.customers-item{
+    padding: 50px 0;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.customers-item .customers-thumb img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.customers-item .customers-content{
+    padding: 15px 0 0;
+    line-height: 25px;
+    text-align: center;
+}
+
+.customers-item .customers-title{
+    font-size: 12px;
+}
+
+/*Customers End*/
 
 
 
