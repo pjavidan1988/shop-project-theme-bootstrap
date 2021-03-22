@@ -77,6 +77,12 @@ img{
     color: #616161;
 }
 
+.carousel-indicators{
+    width: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+
 .no-padding{
     padding: 0;
 }
