@@ -970,7 +970,7 @@ img{
 /*Customers Start*/
 
 .customers-item {
-    padding: 50px 0;
+    padding: 70px 0;
     text-align: center;
 }
 
@@ -1009,6 +1009,47 @@ img{
 }
 
 /*Customers End*/
+
+/*Ads Start*/
+
+.ads-item{
+    height: 240px;
+    position: relative;
+    overflow: hidden;
+    margin: 50px auto;
+}
+
+.ads-item .ads-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.4);
+    outline: 1px solid #fff;
+    outline-offset: -15px;
+}
+
+.ads-item .ads-content span{
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.ads-item:hover .ads-content{
+    outline: 1px solid #5fb7ea;
+}
+
+.ads-item:hover span{
+    color: #5fb7ea;
+}
+
+/*Ads End*/
 
 
 
