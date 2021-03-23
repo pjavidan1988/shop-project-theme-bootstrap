@@ -1115,6 +1115,75 @@ img{
 /*Best Seller End*/
 
 
+/*Order Start*/
+
+.pre-order{
+    width: 100%;
+    float: right;
+    margin-bottom: 100px;
+}
+
+.pre-order .pre-order-content{
+    width: 100%;
+    float: right;
+    padding: 50px 0 0;
+}
+
+.pre-order .pre-order-content .pre-order-title{
+    padding: 0 0 10px;
+    font-size: 20px;
+    color: #ff688f;
+}
+
+.pre-order .pre-order-content p{
+    line-height: 30px;
+    text-align: justify;
+    color: #616161;
+}
+
+.pre-order .pre-order-content form{
+    width: 100%;
+    float: right;
+    padding: 20px 0 0;
+}
+
+.pre-order .pre-order-content input{
+    width: 250px;
+    height: 45px;
+    padding: 5px 10px;
+    border-radius: 7px;
+    background: #fff;
+    border: 1px solid #ddd;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+.pre-order .pre-order-content input:focus{
+    border-color: #ff688f;
+}
+
+.pre-order .pre-order-content input[type="submit"],.pre-order .pre-order-content button{
+    width: 125px;
+    height: 45px;
+    float: left;
+    border: 0;
+    color: #fff;
+    border-radius: 7px;
+    background-color: #fff;
+    background-image: -webkit-linear-gradient(bottom,#e6436d,#ff98b3);
+    background-image: -moz-linear-gradient(bottom,#e6436d,#ff98b3);
+    background-image: -o-linear-gradient(bottom,#e6436d,#ff98b3);
+    background-image: -ms-linear-gradient(bottom,#e6436d,#ff98b3);
+    background-image: linear-gradient(to top,#e6436d,#ff98b3);
+}
+
+
+
+/*Order End*/
+
+
 
 
 
