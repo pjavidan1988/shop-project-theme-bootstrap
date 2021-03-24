@@ -196,6 +196,10 @@ img{
     color:#616161;
 }
 
+.header-main ul li a:hover{
+    color: #ff688f;
+}
+
 .header-main ul li ul{
     width: 250px;
     margin: 20px 0 0;
@@ -354,7 +358,7 @@ img{
     height: 30px;
     line-height: 30px;
     display: block;
-    margin: 0 5px;
+    margin: 5px;
     background: #6abceb;
     color: #fff;
     border-radius: 50%;
@@ -363,6 +367,31 @@ img{
 
 .header-bottom .social li a:hover{
     background: #ff688f;
+}
+
+.header-bottom .search{
+    width: 350px;
+    float: right;
+    position: relative;
+}
+
+.header-bottom .search input[type="text"],.header-bottom .search input[type="search"]{
+    width: 100%;
+    height: 40px;
+    padding: 0 25px 0 45px;
+    background: #fafafa;
+    border: 1px solid #efefef;
+    line-height: 40px;
+    border-radius: 300px;
+}
+
+.header-bottom .search button{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: transparent;
+    border: 0;
+    color: #ff688f;
 }
 
 /* Header-Bottom End */
@@ -1211,7 +1240,7 @@ img{
     text-align: center;
 }
 
-.tab-slider .nav-tabs li.active,.tab-slider .nav-tabs li:hover,.nav-tabs>li.active>a,.nav-tabs>li.active>a:focus,.nav-tabs>li.active>a:hover {
+.tab-slider .nav-tabs li.active,.tab-slider .nav-tabs li:hover,.tab-slider .nav-tabs>li.active>a,.tab-slider .nav-tabs>li.active>a:focus,.tab-slider .nav-tabs>li.active>a:hover {
     background: transparent;
     border-color: transparent;
     color: #fff;
@@ -1432,6 +1461,8 @@ img{
 .footer-bottom p {
     margin: 0;
 }
+
+
 
 
 
