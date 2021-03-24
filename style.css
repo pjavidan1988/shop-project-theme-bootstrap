@@ -1179,15 +1179,17 @@ img{
     background-image: linear-gradient(to top,#e6436d,#ff98b3);
 }
 
+/*Order End*/
+
 /*Tab Slider Start*/
 
-.tab-slider{
+.tab-slider {
     width: 100%;
     height: 300px;
     position: relative;
 }
 
-.tab-slider:before{
+.tab-slider:before {
     content: "";
     width: 100%;
     height: 60%;
@@ -1197,25 +1199,25 @@ img{
     background: #5fb7ea;
 }
 
-.tab-slider .nav-tabs{
+.tab-slider .nav-tabs {
     display: table;
     margin: 0 auto;
     border: 0;
 }
 
-.tab-slider .nav-tabs li{
+.tab-slider .nav-tabs li {
     float: right;
     margin: 0;
     text-align: center;
 }
 
-.tab-slider .nav-tabs li.active,.tab-slider .nav-tabs li:hover,.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+.tab-slider .nav-tabs li.active,.tab-slider .nav-tabs li:hover,.nav-tabs>li.active>a,.nav-tabs>li.active>a:focus,.nav-tabs>li.active>a:hover {
     background: transparent;
     border-color: transparent;
     color: #fff;
 }
 
-.tab-slider .nav-tabs li a,.tab-slider .nav-tabs li a:active,.tab-slider .nav-tabs li a:focus{
+.tab-slider .nav-tabs li a,.tab-slider .nav-tabs li a:active,.tab-slider .nav-tabs li a:focus {
     display: block;
     margin: 0;
     padding: 40px 100px;
@@ -1225,18 +1227,60 @@ img{
     border-color: transparent;
 }
 
-.tab-slider .nav-tabs li a .fa{
+.tab-slider .nav-tabs li a .fa {
     display: block;
     padding: 5px;
     font-size: 35px;
-    color: #3782ae
+    color: #3782ae;
 }
+
+.tab-slider .tab-content {
+    width: 100%;
+    float: right;
+    position: relative;
+    margin-bottom: 100px;
+    padding: 15px 50px;
+    background: #fff;
+}
+
+.tab-slider .tab-content .tab-item {
+    width: 100%;
+    float: right;
+    position: relative;
+    padding: 10px 0;
+    margin: 15px 5px;
+    border: 1px solid #fafafa;
+}
+
+.tab-slider .tab-content .tab-item figure {
+    float: left;
+    padding-right: 10px;
+}
+
+.tab-slider .tab-content .tab-item .tab-item-content {
+    float: left;
+    text-align: left;
+}
+
+.tab-slider .tab-content .tab-item .tab-item-content h6 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.tab-slider .tab-content .tab-item .tab-item-content span {
+    position: relative;
+    padding: 0;
+    font-size: 15px;
+    color: #ff688f;
+}
+
 
 /*Tab Slider End*/
 
 
 
-/*Order End*/
+
 
 
 
