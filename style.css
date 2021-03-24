@@ -1319,6 +1319,64 @@ img{
 
 /*Blog End*/
 
+/*Newsletter Start*/
+
+
+.newsletter {
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.newsletter form {
+    display: table;
+    margin: 0 auto;
+    position: relative;
+}
+
+.newsletter i {
+    position: relative;
+    top: 0;
+    right: 40px;
+}
+
+.newsletter input[type="text"] {
+    height: 60px;
+    padding: 0 70px 0 300px;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 300px;
+    border: 0;
+    color: #ff688f;
+}
+
+.newsletter input[type="submit"],.newsletter button {
+    width: 170px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 15px;
+    background: #5fb7ea;
+    color: #fff;
+    border-radius: 30px 0 0 30px;
+    border: 0;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+.newsletter input[type="submit"]:hover,.newsletter button:hover {
+    background: #ff688f;
+}
+
+.newsletter p {
+    padding: 20px 0;
+}
+
+
+/*Newsletter End*/
+
 
 
 
