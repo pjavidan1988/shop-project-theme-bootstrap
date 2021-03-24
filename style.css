@@ -1278,6 +1278,47 @@ img{
 
 /*Tab Slider End*/
 
+/*Blog Start*/
+
+.blog {
+    width: 100%;
+    float: right;
+    margin-bottom: 100px;
+}
+
+.blog article {
+    width: 100%;
+    background: #fff;
+    margin: 25px 5px 5px;
+    line-height: 25px;
+}
+
+.blog article .blog-content {
+    padding: 20px 30px;
+}
+
+.blog article .blog-content header {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.blog article .blog-content header h2 {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.blog article .blog-content header h2 a {
+    color: #3782ae;
+}
+
+.blog article .blog-content p {
+    line-height: 30px;
+    text-align: justify;
+}
+
+/*Blog End*/
+
 
 
 
