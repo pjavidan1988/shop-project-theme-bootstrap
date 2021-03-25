@@ -1,0 +1,59 @@
+@media screen and (max-width: 480px) {
+    .header-top .pull-left {
+        float: none !important;
+    }
+
+    .header-top ul li {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    .header-main {
+        padding-bottom: 0;
+    }
+
+    .header-main ul {
+        clear: both;
+        padding: 0;
+    }
+
+    .header-main ul li {
+        width: 50%;
+        text-align: center;
+    }
+
+    .header-bottom .social {
+        float: none;
+        display: table;
+        margin: 0 auto 10px;
+    }
+
+    .header-bottom .search {
+        width: 100%;
+    }
+
+    .slider .slide-content {
+        padding: 20px;
+    }
+
+    .slider h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .slider .btn {
+        width: 50%;
+        margin: 0;
+        padding: 10px 5px;
+        font-size: 13px;
+    }
+
+    .sale-timeout .sale-inner .sale-timeout-content h2::before {
+        width: 100%;
+    }
+
+    .newsletter input[type="text"] {
+        padding: 0;
+    }
+}
