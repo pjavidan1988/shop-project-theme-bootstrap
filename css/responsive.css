@@ -1,4 +1,8 @@
 @media screen and (max-width: 480px) {
+    .no-r-padding,.no-l-padding,.no-r-padding {
+        padding: 0 15px;
+    }
+
     .header-top .pull-left {
         float: none !important;
     }
@@ -49,8 +53,59 @@
         font-size: 13px;
     }
 
-    .sale-timeout .sale-inner .sale-timeout-content h2::before {
+    .new-product .product figure a {
+        display: table;
+        margin: 0 auto;
+    }
+
+    .sale-timeout {
+        height: auto;
+        float: right;
+    }
+
+
+    .sale-timeout .sale-inner .sale-timeout-content h2::before,.sale-timeout .sale-inner .sale-timeout-content h2::after {
+        display: none;
+    }
+
+    .sale-timeout .sale-inner .sale-timeout-content {
         width: 100%;
+        padding: 20px 0;
+    }
+
+    .sale-timeout .sale-inner figure {
+        width: 100%;
+    }
+
+    .special-offers .offer {
+        padding: 20px;
+    }
+
+    .special-offers .offer .offer-content h2,.special-offers .offer .offer-content p {
+        text-align: center;
+    }
+
+    .special-offers .offer .offer-content ul {
+        float: none;
+        display: table;
+        margin: 0 auto;
+    }
+
+    .special-offers .offer figure {
+        width: 100%;
+        float: none;
+        display: inline-block;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .ads-item {
+        margin: 20px auto;
+    }
+
+    .pre-order .pre-order-content p {
+        display: table;
+        margin: 5px auto;
     }
 
     .newsletter input[type="text"] {

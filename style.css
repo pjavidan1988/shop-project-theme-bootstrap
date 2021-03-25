@@ -135,11 +135,11 @@ img{
     padding: 7px 30px;
     border-radius: 300px;
     background: rgba(255,255,255,.3);
-    color: #fff;
+    color: #fff !important;
 }
 
-.btn-white:hover{
-    color: #fff;
+.btn-white:hover,.btn-white:active,.btn-white:focus{
+    color: #fff !important;
 }
 
 /* Header-Top Start */
@@ -939,6 +939,8 @@ img{
     display: table;
     margin: 0 auto;
     padding: 0;
+    left: 0;
+    right: 0;
 }
 
 /*Special-offers End*/
@@ -996,6 +998,11 @@ img{
     left: 0;
     line-height: 25px;
     border-radius: 5px;
+    color: #fff;
+}
+
+.sales .sales-item figcaption a:hover,.sales .sales-item figcaption a:active,.sales .sales-item figcaption a:focus{
+    color: #fff !important;
 }
 
 .sales .sales-item span{
@@ -1117,7 +1124,7 @@ img{
     float: right;
     background: #fff;
     text-align: center;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .best-seller .best-item{
