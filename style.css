@@ -570,6 +570,10 @@ img{
     margin: 0;
     padding: 5px 0 20px;
     font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    direction: ltr;
 }
 
 .new-product .product .product-content h2 a {
@@ -955,6 +959,10 @@ img{
     font-size: 15px;
     color: #616161;
     font-weight: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    direction: ltr;
 }
 
 .sales .sales-item{
@@ -1132,6 +1140,11 @@ img{
     font-size: 15px;
     color: #616161;
     font-weight: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    direction: ltr;
+
 }
 
 .best-seller .best-item span{
@@ -1287,6 +1300,7 @@ img{
 }
 
 .tab-slider .tab-content .tab-item .tab-item-content {
+    width: 50%;
     float: left;
     text-align: left;
 }
@@ -1295,6 +1309,10 @@ img{
     margin: 0;
     padding: 10px 0;
     font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    direction: ltr;
 }
 
 .tab-slider .tab-content .tab-item .tab-item-content span {
