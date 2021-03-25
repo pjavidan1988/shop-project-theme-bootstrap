@@ -4,4 +4,7 @@ $(document).ready(function () {
         $(".cart").fadeToggle();
     });
     $(".sale-timeout-counter").startTimer();
+    $('.selectpicker').selectpicker({
+        size: 10
+    });
 });
