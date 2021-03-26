@@ -1451,7 +1451,7 @@ if (typeof Object.create !== "function") {
 
     $.fn.owlCarousel.options = {
 
-        items : 5,
+        items : 4,
         itemsCustom : false,
         itemsDesktop : [1199, 4],
         itemsDesktopSmall : [979, 3],
@@ -1468,10 +1468,10 @@ if (typeof Object.create !== "function") {
         autoPlay : false,
         stopOnHover : false,
 
-        navigation : false,
-        navigationText : ["prev", "next"],
+        navigation : true,
+        navigationText : ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
         rewindNav : true,
-        scrollPerPage : false,
+        scrollPerPage : true,
 
         pagination : true,
         paginationNumbers : false,
