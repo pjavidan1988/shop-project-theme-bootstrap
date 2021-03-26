@@ -1537,6 +1537,21 @@ img{
     margin-bottom: 80px;
 }
 
+.single-product-details .product-thumb {
+    padding: 0 20px 30px;
+}
+
+.single-product-details .product-thumb figure {
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #f4f4f4;
+}
+
+.single-product-details .product-thumb figure img {
+    display: block;
+    margin: 0 auto;
+}
+
 
 /*Single Product Details End*/
 
