@@ -150,6 +150,30 @@
     .new-product .carousel-indicators {
         bottom: -15px;
     }
+
+    .block-white{
+        padding: 10px;
+    }
+
+    .block-white {
+        padding: 10px;
+    }
+
+    .page-cart .discount .discount-form {
+        float: none;
+    }
+
+    .page-cart .discount .discount-form input {
+        width: 100%;
+        margin-bottom: 1px;
+    }
+
+    .page-cart .discount .title,.page-cart .discount p {
+        margin: 0;
+        float: none;
+        line-height: 30px;
+        text-align: center;
+    }
 }
 
 
