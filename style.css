@@ -1507,7 +1507,7 @@ button.close {
 .cover-single h1 {
     position: relative;
     font-size: 25px;
-    z-index: 10;
+    z-index: 1;
 }
 
 .cover-single a {
@@ -1515,12 +1515,13 @@ button.close {
     padding: 5px 5px 0;
     position: relative;
     color: #fff;
-    z-index: 10;
+    z-index: 1;
 }
 
-
-
 /*Cover Single End*/
+
+
+
 
 /*Single Product Details Start*/
 
@@ -1659,7 +1660,45 @@ button.close {
 
 /*Modal Cart End*/
 
+/*Tabs Product Start*/
 
+.tabs-product {
+    width: 100%;
+    float: right;
+    margin: 0 auto 50px;
+}
+
+.tabs-product .nav {
+    border-bottom: 1px solid #ddd;
+}
+
+.tabs-product .nav-pills>li {
+    float: right;
+}
+
+.tabs-product .nav-pills>li a {
+    padding: 15px 20px;
+    border: 1px solid transparent;
+    font-size: 13px;
+    border-bottom: 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.tabs-product .nav-pills>li a:hover,.tabs-product .nav-pills>li.active>a,.tabs-product .nav-pills>li.active>a:focus,.tabs-product .nav-pills>li.active>a:hover {
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    border-radius: 5px 5px 0 0;
+    background: #efefef;
+    color: #555;
+}
+
+.tabs-product .tab-content {
+    line-height: 30px;
+}
+
+
+
+/*Tabs Product End*/
 
 /*Footer Start*/
 
