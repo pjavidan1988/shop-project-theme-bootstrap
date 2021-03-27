@@ -95,6 +95,10 @@ img{
     padding-right: 0;
 }
 
+button.close {
+    float: left;
+}
+
 .btn-gray{
     border-radius: 300px;
     background: #96a092;
@@ -1527,14 +1531,14 @@ img{
 }
 
 .single-product-details .product-slider {
-    padding-top: 100px;
+    padding-top: 50px;
     background: #fff;
 }
 
 .single-product-details .product-slider figure {
     position: relative;
     padding: 0 30px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .single-product-details .product-thumb {
@@ -1600,13 +1604,13 @@ img{
 .single-product-details .single-product-overview .cart-options {
     width: 100%;
     float: right;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .single-product-details .single-product-overview .cart-options .price {
     display: inline-block;
     padding: 0 10px 0 0;
-    font-size: 22px;
+    font-size: 25px;
     color: #ff688f;
 }
 
@@ -1627,8 +1631,35 @@ img{
     background: #ff688f;
 }
 
-
 /*Single Product Details End*/
+
+/*Modal Cart Start*/
+
+.modal-cart .modal-body {
+    width: 100%;
+    float: right;
+}
+
+.modal-cart input,.modal-cart select {
+    width: 100%;
+    height: 50px;
+    margin: 5px auto;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.modal-cart .modal-body input[type="submit"],.modal-cart .modal-body .modal-cart input[type="button"],.modal-cart .modal-body .modal-cart button {
+    width: auto;
+    float: left;
+    border: 0;
+    background: #5fb7ea;
+    color: #fff;
+}
+
+/*Modal Cart End*/
+
+
 
 /*Footer Start*/
 
