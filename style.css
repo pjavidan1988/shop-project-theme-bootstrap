@@ -1,3 +1,6 @@
+
+
+/*General Start*/
 @font-face{
     font-family: 'Peyman';
     src: url('fonts/WebYekan.woff') format('woff');
@@ -145,9 +148,11 @@ button.close {
 .btn-white:hover,.btn-white:active,.btn-white:focus{
     color: #fff !important;
 }
+/*General End*/
+
+
 
 /* Header-Top Start */
-
 .header-top{
     background: #5fb7ea;
 }
@@ -166,8 +171,11 @@ button.close {
 .header-top ul li a:hover{
     color:#476678;
 }
-
 /* Header-Top End */
+
+
+
+
 
 /* Header-Main Star */
 .header-main{
@@ -335,11 +343,12 @@ button.close {
     background: #ff688f;
     color: #fff;
 }
-
 /* Header-Main End */
 
-/* Header-Bottom Start */
 
+
+
+/* Header-Bottom Start */
 .header-bottom{
     width: 100%;
     display: inline-block;
@@ -441,11 +450,13 @@ button.close {
     box-shadow: none;
     background: transparent;
 }
-
 /* Header-Bottom End */
 
-/*Slider Start*/
 
+
+
+
+/*Slider Start*/
 .slider{
     width: 100%;
     position: relative;
@@ -501,11 +512,13 @@ button.close {
     background: #5fb7ea;
     border-color: #5fb7ea;
 }
-
 /*Slider End*/
 
-/*Services Start*/
 
+
+
+
+/*Services Start*/
 .services {
     width: 100%;
     padding: 30px 0;
@@ -538,11 +551,12 @@ button.close {
 .services p{
     color: #9e9e9e;
 }
-
 /*Services End*/
 
-/*New product Start*/
 
+
+
+/*New product Start*/
 .new-product {
     margin-bottom: 100px;
 }
@@ -739,11 +753,12 @@ button.close {
 .new-product .right-arrow{
     margin: 0 0 0 40px;
 }
-
 /*New product End*/
 
-/*Quick access Start*/
 
+
+
+/*Quick access Start*/
 .quick-access {
     margin: 20px 0 0;
 }
@@ -804,12 +819,13 @@ button.close {
     border: 0;
     background: transparent;
 }
-
-
 /*Quick access End*/
 
-/*Sale timeout Start*/
 
+
+
+
+/*Sale timeout Start*/
 .sale-timeout{
     width: 100%;
     height: 450px;
@@ -920,8 +936,10 @@ button.close {
 }
 /*Sale timeout End*/
 
-/*Special-offers Start*/
 
+
+
+/*Special-offers Start*/
 .special-offers{
     width: 100%;
     background: url("images/watch-bg.jpg");
@@ -990,11 +1008,12 @@ button.close {
     left: 0;
     right: 0;
 }
-
 /*Special-offers End*/
 
-/*Sales Start*/
 
+
+
+/*Sales Start*/
 .sales{
     width: 100%;
     float: right;
@@ -1063,12 +1082,12 @@ button.close {
 .sales .sales-item .btn{
     color: #fff;
 }
-
-
 /*Sales End*/
 
-/*Customers Start*/
 
+
+
+/*Customers Start*/
 .customers-item {
     padding: 70px 0;
     text-align: center;
@@ -1107,11 +1126,13 @@ button.close {
     background: #ff688f;
     border-color: #ff688f;
 }
-
 /*Customers End*/
 
-/*Ads Start*/
 
+
+
+
+/*Ads Start*/
 .ads-item{
     height: 240px;
     position: relative;
@@ -1148,11 +1169,12 @@ button.close {
 .ads-item:hover span{
     color: #5fb7ea;
 }
-
 /*Ads End*/
 
-/*Support Start*/
 
+
+
+/*Support Start*/
 .support{
     width: 100%;
     float: right;
@@ -1161,12 +1183,12 @@ button.close {
     text-align: center;
     margin-bottom: 50px;
 }
-
-
 /*Support End*/
 
-/*Best Seller Start*/
 
+
+
+/*Best Seller Start*/
 .best-seller{
     width: 100%;
     float: right;
@@ -1208,12 +1230,12 @@ button.close {
     font-size: 18px;
     color: #ff688f;
 }
-
 /*Best Seller End*/
 
 
-/*Order Start*/
 
+
+/*Order Start*/
 .pre-order{
     width: 100%;
     float: right;
@@ -1275,11 +1297,11 @@ button.close {
     background-image: -ms-linear-gradient(bottom,#e6436d,#ff98b3);
     background-image: linear-gradient(to top,#e6436d,#ff98b3);
 }
-
 /*Order End*/
 
-/*Tab Slider Start*/
 
+
+/*Tab Slider Start*/
 .tab-slider {
     width: 100%;
     height: 300px;
@@ -1376,12 +1398,11 @@ button.close {
     font-size: 15px;
     color: #ff688f;
 }
-
-
 /*Tab Slider End*/
 
-/*Blog Start*/
 
+
+/*Blog Start*/
 .blog {
     width: 100%;
     float: right;
@@ -1418,12 +1439,11 @@ button.close {
     line-height: 30px;
     text-align: justify;
 }
-
 /*Blog End*/
 
+
+
 /*Newsletter Start*/
-
-
 .newsletter {
     margin-bottom: 100px;
     position: relative;
@@ -1475,12 +1495,12 @@ button.close {
 .newsletter p {
     padding: 20px 0;
 }
-
 /*Newsletter End*/
 
 
-/*Cover Single Start*/
 
+
+/*Cover Single Start*/
 .cover-single {
     width: 100%;
     float: right;
@@ -1517,14 +1537,12 @@ button.close {
     color: #fff;
     z-index: 1;
 }
-
 /*Cover Single End*/
 
 
 
 
 /*Single Product Details Start*/
-
 .single-product-details {
     width: 100%;
     float: right;
@@ -1631,11 +1649,11 @@ button.close {
 .single-product-details .single-product-overview .cart-options .btn-cart:hover {
     background: #ff688f;
 }
-
 /*Single Product Details End*/
 
-/*Modal Cart Start*/
 
+
+/*Modal Cart Start*/
 .modal-cart .modal-body {
     width: 100%;
     float: right;
@@ -1657,11 +1675,10 @@ button.close {
     background: #5fb7ea;
     color: #fff;
 }
-
 /*Modal Cart End*/
 
-/*Tabs Product Start*/
 
+/*Tabs Product Start*/
 .tabs-product {
     width: 100%;
     float: right;
@@ -1695,13 +1712,125 @@ button.close {
 .tabs-product .tab-content {
     line-height: 30px;
 }
-
-
-
 /*Tabs Product End*/
 
-/*Footer Start*/
 
+
+/*Page Cart Start*/
+.block-white {
+    width: 100%;
+    float: right;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+    background: #fff;
+}
+
+.page-cart th,.page-cart td {
+    padding: 10px !important;
+    text-align: center;
+    font-weight: 400;
+    vertical-align: middle !important;
+}
+
+.page-cart table input {
+    width: 70px;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+.page-cart a:hover {
+    color: #ff688f;
+}
+/*Page Cart End*/
+
+
+/*Discount Start*/
+.page-cart .discount {
+    width: 100%;
+    float: right;
+    margin: 10px auto;
+    padding: 15px;
+    position: relative;
+    border: 1px solid #ddd;
+}
+
+.page-cart .discount i {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 60px;
+    color: #f7f7f7;
+}
+
+.page-cart .discount .discount-form {
+    float: left;
+    padding: 15px 0 0;
+}
+
+.page-cart .discount .discount-form input[type="text"] {
+    float: right;
+    padding: 5px;
+    border: 1px solid #5fb7ea;
+}
+
+.page-cart .discount .discount-form input[type="submit"],.page-cart .discount .discount-form input[type="button"],.page-cart .discount .discount-form button {
+    padding: 5px;
+    background: #5fb7ea;
+    border: 1px solid #5fb7ea;
+    color: #fff;
+}
+
+.page-cart .discount .title {
+    width: 100%;
+    float: right;
+    padding-bottom: 5px;
+    font-size: 17px;
+    text-align: right;
+}
+
+.page-cart .discount p {
+    clear: both;
+    text-align: right;
+}
+/*Discount End*/
+
+/*Total Cart Start*/
+.page-cart .total-cart {
+    display: table;
+    margin: 10px auto;
+    padding-bottom: 10px;
+    font-size: 20px;
+    border-bottom: 1px dotted #ff688f;
+    color: #ff688f;
+}
+
+.page-cart .btn-center {
+    display: table;
+    margin: 10px auto 0;
+}
+
+.page-cart .btn-center input[type="submit"],.page-cart .btn-center input[type="button"],.page-cart .btn-center button {
+    width: 120px;
+    margin: 0 5px;
+    padding: 10px;
+    background: #5fb7ea;
+    border: 0;
+    color: #fff;
+    opacity: .9;
+}
+
+.page-cart .btn-center input.btn-pink {
+    background: #ff688f;
+}
+
+.page-cart .btn-center input[type="submit"]:hover,.page-cart .btn-center input[type="button"]:hover,.page-cart .btn-center button:hover {
+    opacity: 1;
+}
+/*Total Cart End*/
+
+
+/*Footer Start*/
 .footer-content {
     width: 100%;
     float: right;
