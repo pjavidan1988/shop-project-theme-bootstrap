@@ -8,4 +8,6 @@ $(document).ready(function($) {
         size: 10
     });
     $("#owl-example").owlCarousel();
+    $(".fancybox").fancybox();
+    $(".zoom").elevateZoom();
 });
