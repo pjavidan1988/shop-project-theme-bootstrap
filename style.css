@@ -1830,6 +1830,20 @@ button.close {
 /*Total Cart End*/
 
 
+/*Category Start*/
+.category-product {
+    width: 100%;
+    float: right;
+    padding: 50px 0;
+}
+
+.category-product .product {
+    margin-bottom: 30px;
+}
+/*Category End*/
+
+
+
 /*Footer Start*/
 .footer-content {
     width: 100%;
