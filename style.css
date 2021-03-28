@@ -80,6 +80,13 @@ img{
     color: #616161;
 }
 
+.block-center {
+    float: none;
+    display: table;
+    margin: 0 auto;
+}
+
+
 .carousel-indicators{
     width: auto;
     margin: 0 auto;
@@ -1852,6 +1859,8 @@ input[type=file]:focus,input[type=checkbox]:focus,input[type=radio]:focus {
 
 /*Sidebar Start*/
 .sidebar {
+    width: 100%;
+    float: right;
     padding: 50px 0;
 }
 
@@ -1990,6 +1999,100 @@ input[type=file]:focus,input[type=checkbox]:focus,input[type=radio]:focus {
     border-color: #5fb7ea;
 }
 /*Sidebar End*/
+
+
+
+/*Page Account Start*/
+.page-account .form-icon {
+    width: 70px;
+    height: 70px;
+    display: table;
+    margin: 0 auto;
+    line-height: 70px;
+    background: #5fb7ea;
+    color: #fff;
+    text-align: center;
+    border-radius: 300px;
+    font-size: 30px;
+}
+
+.page-account .login-form h2,.page-account .signup-form h2 {
+    margin: 0 auto 10px;
+    font-size: 20px;
+    color: #5fb7ea;
+}
+
+.page-account .signup-form h2 {
+    color: #ff688f;
+}
+
+.page-account form {
+    padding: 20px 0 0;
+}
+
+.page-account a {
+    color: #5fb7ea;
+}
+
+.page-account .login-form input,.page-account .signup-form input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 6px rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 0 6px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 0 6px rgba(0,0,0,.1);
+    -o-box-shadow: 0 0 6px rgba(0,0,0,.1);
+}
+
+.page-account .login-form input[type="submit"] {
+    background: #5fb7ea;
+    border: 1px solid #5fb7ea;
+    color: #fff;
+}
+
+.page-account .signup-form input[type="submit"] {
+    background: #ff688f;
+    border: 1px solid #ff688f;
+    color: #fff;
+}
+
+.page-account .signup-form .form-icon {
+    background: #ff688f;
+}
+
+.page-account input[type="checkbox"] {
+    width: auto;
+    border: 0;
+    box-shadow: none;
+    display: none;
+}
+
+.page-account input[type="checkbox"] + label {
+    position: relative;
+    padding-right: 20px;
+}
+
+.page-account input[type="checkbox"] + label:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 2px;
+    right: 0;
+    font-size: 10px;
+    background: #BDC3C7;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.page-account input[type="checkbox"]:checked + label:before {
+    content: "\f00c";
+    font-family: "FontAwesome";
+    background: #5fb7ea;
+    color: #fff;
+}
+/*Page Account End*/
+
 
 
 /*Footer Start*/
