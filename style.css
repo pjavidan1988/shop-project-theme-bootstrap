@@ -102,6 +102,14 @@ button.close {
     float: left;
 }
 
+label {
+    font-weight: 400;
+}
+
+input[type=file]:focus,input[type=checkbox]:focus,input[type=radio]:focus {
+    outline: 0;
+}
+
 .btn-gray{
     border-radius: 300px;
     background: #96a092;
@@ -1850,11 +1858,18 @@ button.close {
 .sidebar .widget {
     width: 100%;
     float: right;
+    margin: 5px 0 30px;
+    padding: 10px 20px;
     position: relative;
+    background: #fff;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 0 6px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 0 6px rgba(0,0,0,.1);
+    -o-box-shadow: 0 0 6px rgba(0,0,0,.1);
 }
 
 .sidebar .widget h3 {
-    margin: 10px auto;
+    margin: 5px auto 20px;
     font-size: 17px;
     color: #5fb7ea;
 }
@@ -1893,6 +1908,86 @@ button.close {
     font-family: "FontAwesome";
     background: #27AE60;
     color: #fff;
+}
+
+.sidebar-input-design input[type="checkbox"],.sidebar-input-design input[type="radio"] {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 5px;
+    right: 0;
+    font-size: 10px;
+    background: #BDC3C7;
+    border-radius: 2px;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+
+.sidebar-input-design input[type="radio"]{
+    border-radius: 50%;
+}
+
+.sidebar-input-design input[type="checkbox"]:checked,.sidebar-input-design input[type="radio"]:checked {
+    position: relative;
+    background: #27AE60;
+    color: #fff;
+}
+
+.sidebar-input-design input[type="checkbox"]:checked:before,.sidebar-input-design input[type="radio"]:checked:before {
+    content: "\f00c";
+    font-family: "FontAwesome";
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background: #27AE60;
+    color: #fff;
+}
+
+.sidebar .widget .widget-content ul li {
+    display: block;
+    padding: 5px 0;
+}
+
+.sidebar .widget .widget-content ul li a {
+    display: block;
+    line-height: 25px;
+}
+
+.sidebar .widget .widget-content ul li a:hover {
+    color: #5fb7ea;
+}
+
+.sidebar .widget .tagcloud a {
+    display: inline-block;
+    margin: 2px;
+    padding: 5px 10px;
+    font-size: 12px;
+    border: 1px solid #ddd;
+    border-radius: 300px;
+    background: #5fb7ea;
+    border-color: #5fb7ea;
+    color: #fff;
+}
+
+.sidebar .widget .tagcloud a:hover {
+    background: #ff688f;
+    border-color: #ff688f;
+    color: #fff;
+}
+
+.sidebar .widget input,.sidebar .widget textarea {
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    resize: none;
+}
+
+.sidebar .widget input:focus,.sidebar .widget textarea:focus {
+    border-color: #5fb7ea;
 }
 /*Sidebar End*/
 
