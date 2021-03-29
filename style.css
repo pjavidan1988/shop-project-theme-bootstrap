@@ -199,8 +199,8 @@ input[type=file]:focus,input[type=checkbox]:focus,input[type=radio]:focus {
 
 .header-main .logo{
     float: left;
-    margin-top: -20px;
-    margin-bottom: -20px;
+    margin-top: -40px;
+    margin-bottom: -40px;
 }
 
 .header-main nav{
@@ -2111,6 +2111,44 @@ input[type=file]:focus,input[type=checkbox]:focus,input[type=radio]:focus {
     line-height: 30px;
 }
 
+.blog-wrapper .blog-item figure {
+    position: relative;
+}
+
+.blog-wrapper .blog-item figure .meta-time {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    text-align: center;
+    border-right: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+}
+
+.blog-wrapper .blog-item figure .meta-time .date {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background: #484848;
+    line-height: 25px;
+}
+
+.blog-wrapper .blog-item figure .meta-time .date em {
+    display: block;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.blog-wrapper .blog-item figure .meta-time .year {
+    display: block;
+    padding: 3px 0;
+    color: #fff;
+    background: #5fb7ea;
+}
+
+
 .blog-wrapper .blog-item h2 {
     margin: 20px auto;
     font-size: 20px;
@@ -2118,6 +2156,10 @@ input[type=file]:focus,input[type=checkbox]:focus,input[type=radio]:focus {
 
 .blog-wrapper .blog-item h2 a {
     color: #5fb7ea;
+}
+
+.blog-wrapper .blog-item h2 a:hover {
+    color: #ff688f;
 }
 
 .blog-wrapper .blog-item .read-more {
@@ -2189,11 +2231,6 @@ input[type=file]:focus,input[type=checkbox]:focus,input[type=radio]:focus {
 .footer-bottom p {
     margin: 0;
 }
-
-
-
-
-
 /*Footer End*/
 
 
