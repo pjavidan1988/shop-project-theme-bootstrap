@@ -2108,7 +2108,7 @@ input[type=file]:focus,input[type=checkbox]:focus,input[type=radio]:focus {
 /*Blog Start*/
 .blog-wrapper {
     width: 100%;
-    margin: 55px auto;
+    margin: 50px auto;
 }
 
 .blog-wrapper .blog-item {
@@ -2165,7 +2165,7 @@ input[type=file]:focus,input[type=checkbox]:focus,input[type=radio]:focus {
     font-size: 20px;
 }
 
-.blog-wrapper .blog-item h2 a {
+.blog-wrapper .blog-item h2,.title-blog,.blog-wrapper .blog-item h2 a {
     color: #5fb7ea;
 }
 
@@ -2208,6 +2208,68 @@ input[type=file]:focus,input[type=checkbox]:focus,input[type=radio]:focus {
 .blog-wrapper .pagination a:hover,.blog-wrapper .pagination span:hover {
     background: #5fb7ea;
     color: #fff;
+}
+
+.blog-wrapper .blog-item .blog-social{
+    width: 100%;
+    float: right;
+    padding: 20px 0 0;
+    position: relative;
+}
+
+.blog-wrapper .blog-item .blog-social .title-social{
+    position: relative;
+}
+
+.blog-wrapper .blog-item .blog-social .title-social .content-social{
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.blog-wrapper .blog-item .blog-social .title-social i{
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
+
+.blog-wrapper .blog-item .blog-social ul{
+    float: left;
+}
+
+.blog-wrapper .blog-item .blog-social ul li{
+    float: right;
+    padding: 0 5px;
+}
+
+.blog-wrapper .blog-item .blog-social ul li a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    background: #fdfdfd;
+    color: #fff;
+    border-radius: 300px;
+    box-shadow: 0 0 6px rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 0 6px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 0 6px rgba(0,0,0,.1);
+    -o-box-shadow: 0 0 6px rgba(0,0,0,.1);
+}
+
+.blog-wrapper .blog-item .blog-social ul li a.facebook{
+    background: #3b5998
+}
+
+.blog-wrapper .blog-item .blog-social ul li a.goops{
+    background: #dd4b39
+}
+
+.blog-wrapper .blog-item .blog-social ul li a.twitter{
+    background: #1da1f2
+}
+
+.blog-wrapper .blog-item .blog-social ul li a.pinterest{
+    background: #bd081c
 }
 /*Blog End*/
 
