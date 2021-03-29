@@ -2271,6 +2271,39 @@ input[type=file]:focus,input[type=checkbox]:focus,input[type=radio]:focus {
 .blog-wrapper .blog-item .blog-social ul li a.pinterest{
     background: #bd081c
 }
+
+.blog-wrapper .blog-item .tags-item {
+    width: 100%;
+    position: relative;
+    float: right;
+    margin: 20px auto 0;
+    padding: 10px 30px;
+    background: #f7f7f7;
+    border: 1px solid #ededed;
+}
+
+.blog-wrapper .blog-item .tags-item i {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+.blog-wrapper .blog-item .tags-item a {
+    height: 25px;
+    float: right;
+    display: inline-block;
+    margin: 1px;
+    padding: 0 10px;
+    line-height: 25px;
+    background: #eee;
+    color: #999;
+    white-space: nowrap;
+}
+
+.blog-wrapper .blog-item .tags-item a:hover {
+    background: #5fb7ea;
+    color: #fff;
+}
 /*Blog End*/
 
 
