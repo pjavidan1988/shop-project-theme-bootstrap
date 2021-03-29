@@ -1864,6 +1864,17 @@ input[type=file]:focus,input[type=checkbox]:focus,input[type=radio]:focus {
     padding: 50px 0;
 }
 
+.sidebar .widget-category {
+    margin-bottom: 20px;
+}
+
+.sidebar .widget-category img {
+    box-shadow: 0 0 6px rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 0 6px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 0 6px rgba(0,0,0,.1);
+    -o-box-shadow: 0 0 6px rgba(0,0,0,.1);
+}
+
 .sidebar .widget {
     width: 100%;
     float: right;
@@ -2172,6 +2183,31 @@ input[type=file]:focus,input[type=checkbox]:focus,input[type=radio]:focus {
 
 .blog-wrapper .blog-item .read-more:hover {
     background: #ff688f;
+}
+
+.blog-wrapper .pagination {
+}
+
+.blog-wrapper .pagination a,.blog-wrapper .pagination span {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0 0 10px 5px;
+    background: #fff;
+    border: 1px solid #f4f4f4;
+    text-align: center;
+    box-shadow: 0 0 6px rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 0 6px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 0 6px rgba(0,0,0,.1);
+    -o-box-shadow: 0 0 6px rgba(0,0,0,.1);
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+.blog-wrapper .pagination a:hover,.blog-wrapper .pagination span:hover {
+    background: #5fb7ea;
+    color: #fff;
 }
 /*Blog End*/
 
